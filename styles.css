@@ -1,4 +1,4 @@
-* { outline: 1px solid red; }
+
 
 
 body {
@@ -22,10 +22,10 @@ h1 {
 	border-bottom-style: dotted;
 	border-color: yellow; 
     color: #0d81be;
-     font-family: futura-pt,Helvetica,Arial,sans-serif;
-     font-weight: 800;
-     text-align: center; 
-     font-size: 50px;
+    font-family: futura-pt,Helvetica,Arial,sans-serif;
+    font-weight: 800;
+    text-align: center; 
+    font-size: 50px;
 }
 
 p {
@@ -46,7 +46,7 @@ h4, li {
 .concludes {
 
 	color: #0d81be;
-		background-color: blue;
+	background-color: blue;
 
 }
 
