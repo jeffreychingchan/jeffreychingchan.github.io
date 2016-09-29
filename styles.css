@@ -1,4 +1,96 @@
-body {
-	body {background: blue};
+* { outline: 1px solid red; }
 
+
+body {
+	background-color: #fcd14e ;
+	margin: 20px;
+
+}
+
+div, footer {
+	padding: 50px 0;
+
+	margin: 30px auto;
+	max-width: 85%;
+	text-align: center;
+	background-color: #fa6d6b; 
+	border-bottom-width: 50px;
+	border-bottom-color: #0d81be;
+}
+
+h1 {
+	border-bottom-style: dotted;
+	border-color: yellow; 
+    color: #0d81be;
+     font-family: futura-pt,Helvetica,Arial,sans-serif;
+     font-weight: 800;
+     text-align: center; 
+     font-size: 50px;
+}
+
+p {
+
+	font-size: 25px;
+}
+
+h2 {
+
+	font-size: 35px;
+}
+
+h4, li {
+
+	font-size: 30px;
+}
+
+.concludes {
+
+	color: #0d81be;
+		background-color: blue;
+
+}
+
+.site {
+
+	color: #2C3539; 
+	background-color: brown;
+
+}
+
+#my_list {
+
+	font-size: 30px;
+}
+
+a:visited {
+    color: yellow;
+}
+
+
+footer {
+
+	background-image: url("http://s2.favim.com/orig/140910/-background-donas-donuts-Favim.com-2060392.jpg")
+}
+
+
+/*media query*/
+
+@media screen and (max-width: 660px) {
+
+  body {
+    
+    max-width: 100%;
+    margin: 0;
+  }
+
+  div, footer {
+  	max-width: 100%;
+  }
+
+  img {
+  	max-width: 100%;
+
+  }
+
+  
 }
